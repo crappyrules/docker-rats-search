@@ -9,6 +9,6 @@ RUN sed -i.bak '/serverDataDirectory.*/s/.\//\/rats-data/' \
 
 
 VOLUME ["/rats-data"]
-EXPOSE ["8095"]
+EXPOSE 8095
 WORKDIR /rats-search
 CMD ["npm", "run", "server"]
