@@ -1,0 +1,14 @@
+version: '2'
+
+volumes:
+  data: {}
+  downloads: {}
+
+services:
+  rats-search:
+    build: .
+    volumes:
+      - data:/rats-data
+      - downloads:/root/Downloads
+    ports:
+      - 8095:8095
