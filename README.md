@@ -20,3 +20,10 @@ docker-compose up
 docker-compose build --no-cache
 docker-compose up
 ```
+
+## Adding rats-search via Portainer
+go to stacks and add in this github repository
+
+<p align="center"><img src="https://raw.githubusercontent.com/crappyrules/docker-rats-search/master/img/portainer.png"></p>
+
+stop the container and restart
